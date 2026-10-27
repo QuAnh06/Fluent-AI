@@ -1,0 +1,6 @@
+{
+  "name": "Fluent AI",
+  "description": "Fluent AI - Nền tảng AI luyện nói tiếng Anh, phân tích phát âm, sửa lỗi ngữ pháp, theo dõi điểm yếu và chế độ Shadowing chuẩn bản xứ.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

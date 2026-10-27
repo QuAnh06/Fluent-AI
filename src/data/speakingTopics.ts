@@ -1,0 +1,127 @@
+import { SpeakingTopic } from '../types';
+
+export const SPEAKING_TOPICS: SpeakingTopic[] = [
+  {
+    id: 'ielts_p1_hobbies',
+    category: 'ielts_part1',
+    categoryLabelVi: 'IELTS Speaking Part 1',
+    title: 'Hobbies & Free Time',
+    descriptionVi: 'Chủ đề quen thuộc về sở thích, cách thư giãn và các hoạt động cuối tuần.',
+    questions: [
+      'What do you usually do in your free time?',
+      'Did you have a hobby when you were a child?',
+      'Do you prefer spending your weekends outdoors or staying at home?',
+      'Do you think it is important for people to have hobbies?',
+    ],
+  },
+  {
+    id: 'ielts_p1_work_study',
+    category: 'ielts_part1',
+    categoryLabelVi: 'IELTS Speaking Part 1',
+    title: 'Work & Studies',
+    descriptionVi: 'Hỏi về công việc hiện tại, ngành học và mục tiêu nghề nghiệp.',
+    questions: [
+      'Do you work or are you a student?',
+      'Why did you choose your current job or major?',
+      'What do you enjoy most about what you do?',
+      'Would you like to change your profession in the future?',
+    ],
+  },
+  {
+    id: 'ielts_p1_hometown',
+    category: 'ielts_part1',
+    categoryLabelVi: 'IELTS Speaking Part 1',
+    title: 'Hometown & Living Space',
+    descriptionVi: 'Mô tả quê hương, sự thay đổi qua các năm và cảm nhận về nơi sinh sống.',
+    questions: [
+      'Where is your hometown located?',
+      'What do you like most about living there?',
+      'Has your hometown changed a lot in recent years?',
+      'Do you plan to continue living there in the future?',
+    ],
+  },
+  {
+    id: 'ielts_p2_memorable_trip',
+    category: 'ielts_part2',
+    categoryLabelVi: 'IELTS Speaking Part 2',
+    title: 'Cue Card: A Memorable Journey',
+    descriptionVi: 'Trình bày một chuyến đi đáng nhớ (1 phút chuẩn bị, 2 phút nói).',
+    prepTimeSeconds: 60,
+    targetSpeakingSeconds: 120,
+    cueCardPoints: [
+      'Where you went and who you traveled with',
+      'What you did during the trip',
+      'What unexpected difficulties or highlights occurred',
+      'And explain why this trip remains so memorable to you',
+    ],
+    questions: [
+      'Describe a memorable journey or vacation you took that had a lasting impact on you.',
+    ],
+  },
+  {
+    id: 'ielts_p2_tech_gadget',
+    category: 'ielts_part2',
+    categoryLabelVi: 'IELTS Speaking Part 2',
+    title: 'Cue Card: An Indispensable Tech Device',
+    descriptionVi: 'Mô tả thiết bị công nghệ hữu ích nhất trong cuộc sống hàng ngày.',
+    prepTimeSeconds: 60,
+    targetSpeakingSeconds: 120,
+    cueCardPoints: [
+      'What device it is and when you bought it',
+      'How frequently you use it and for what purposes',
+      'How it has changed your productivity or daily habits',
+      'And explain why you would find it difficult to live without it',
+    ],
+    questions: [
+      'Describe a piece of technology or electronic equipment you find particularly useful.',
+    ],
+  },
+  {
+    id: 'ielts_p3_ai_society',
+    category: 'ielts_part3',
+    categoryLabelVi: 'IELTS Speaking Part 3',
+    title: 'Artificial Intelligence & Future of Work',
+    descriptionVi: 'Thảo luận chuyên sâu về tác động của trí tuệ nhân tạo đối với xã hội.',
+    questions: [
+      'In what ways do you think artificial intelligence will transform the job market in the next decade?',
+      'Do you believe automated machines can completely replace human empathy and creativity?',
+      'What ethical concerns should governments address regarding rapid AI development?',
+    ],
+  },
+  {
+    id: 'ielts_p3_environment',
+    category: 'ielts_part3',
+    categoryLabelVi: 'IELTS Speaking Part 3',
+    title: 'Environmental Protection & Individual Action',
+    descriptionVi: 'Tranh luận về trách nhiệm bảo vệ môi trường giữa cá nhân và chính phủ.',
+    questions: [
+      'Do you believe individual actions such as recycling make a significant impact on global climate change?',
+      'Should governments impose heavier penalties on corporations that cause pollution?',
+      'How can education raise ecological awareness among younger generations?',
+    ],
+  },
+  {
+    id: 'interview_challenges',
+    category: 'interview',
+    categoryLabelVi: 'Phỏng Vấn Xin Việc (Job Interview)',
+    title: 'Overcoming Workplace Challenges',
+    descriptionVi: 'Phương pháp STAR trả lời câu hỏi xử lý áp lực và mâu thuẫn trong công việc.',
+    questions: [
+      'Can you tell me about a time when you faced a severe setback at work and how you handled it?',
+      'How do you prioritize competing deadlines when multiple urgent tasks arise simultaneously?',
+      'Where do you envision yourself professionally five years from now?',
+    ],
+  },
+  {
+    id: 'daily_ordering_food',
+    category: 'daily',
+    categoryLabelVi: 'Giao Tiếp Hàng Ngày & Du Lịch',
+    title: 'At a Restaurant / Coffee Shop',
+    descriptionVi: 'Tình huống gọi món, hỏi về nguyên liệu và xử lý thanh toán tự nhiên.',
+    questions: [
+      'Excuse me, could you recommend a specialty dish that isn’t too spicy?',
+      'I think there might be a slight mistake with my bill. Could we double-check it please?',
+      'Could I get this iced latte with oat milk and half the normal amount of syrup, please?',
+    ],
+  },
+];
